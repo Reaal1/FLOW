@@ -1,5 +1,6 @@
 import Ellipse from './assets/Ellipse 4.png';
 import Arrow from './assets/arrow-narrow-right.png';
+import Dashboard1 from './assets/Dashboard (1).png';
 import Dashboard from './assets/Dashboard.png';
 import {Button} from 'react-bootstrap';
 
@@ -18,6 +19,7 @@ const Performance = () => {
             </div>
             <div className='performance_container_image'>
                 <div className='performance_container_image_photo'>
+                <img className='performance_image1' src={Dashboard1} alt="performance_image" />
                 <img className='performance_image' src={Dashboard} alt="performance_image" />
             </div>
             </div>

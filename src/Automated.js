@@ -1,4 +1,5 @@
 import CardInt from './assets/Card interraction (2).png';
+import CardInt1 from './assets/Progress tracking card (1).png';
 import ProgressTrack from './assets/Progress tracking card.png';
 import Arrow from './assets/arrow-narrow-right.png';
 import {Button} from 'react-bootstrap';
@@ -14,6 +15,7 @@ const Automated = () => {
             <br /> Progress Tracking</p>
           </div>
           <div className='automated_container_top-image_section'>
+          <img className='automated_container_top_image1' src={CardInt1} alt="" />
              <img className='automated_container_top_image' src={CardInt} alt="" />
           </div>
           </div>

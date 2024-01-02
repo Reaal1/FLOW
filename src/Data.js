@@ -1,4 +1,5 @@
 import CardInt1 from './assets/Performance card (1).png';
+import CardInt2 from './assets/Performance card (2).png';
 import PerformanceCard from './assets/Performance card.png';
 import Arrow from './assets/arrow-narrow-right.png';
 import {Button} from 'react-bootstrap';
@@ -14,6 +15,7 @@ const Data = () => {
         <br /> Decision Support </p>
       </div>
       <div className='data_container_top-image_section'>
+      <img className='data_container_top_image2' src={CardInt2} alt="" />
          <img className='data_container_top_image' src={CardInt1} alt="" />
       </div>
       </div>

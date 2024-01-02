@@ -58,7 +58,7 @@ const NLP = () => {
     </div>
     </div>
     </div>
-    <div>
+    <div className='row_lower'>
     <div className="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
     <div className="col">
       <div className="p-3 bg">
@@ -98,6 +98,7 @@ const NLP = () => {
     </div>
     </div>
     </div>
+    <Button id='navbar-Bootstrap_Button_frame10'  className='btn btn-light'>See More <img className='arrow-right_frame' src={Arrow} alt="arrow" /></Button>
 </div>
         </div>
      );

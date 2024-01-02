@@ -8,7 +8,7 @@ const Hero = () => {
     return ( 
         <main className='hero-main1'>
             <div className='hero-container'>
-                <img className='hero-section_image' src={HeroBody} alt="Body" />
+                <img className='hero-section_image' src={HeroBody} alt="Body" /> 
                 <div className='hero-main2'>
                 <div className='hero-details'>
                <p className='hero-pargraph'>Revolutionizing the way teams 
